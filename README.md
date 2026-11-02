@@ -1,13 +1,10 @@
-# Olist-E-commerce-Analysis-Power-BI-SQL
 # Olist E-Commerce: Sales, Customer & Delivery Analysis
 
 ## Business problem
-[Two lines. Example: An online marketplace wants to understand where its revenue
-comes from, whether customers return, and how delivery delays affect satisfaction.]
+An online marketplace wants to understand where its revenue comes from, whether customers come back to buy again, and how late deliveries affect customer satisfaction.
 
 ## Dataset
-Brazilian E-Commerce Public Dataset by Olist (Kaggle): about 100k orders from
-2016 to 2018 across 8 related tables. Amounts are in Brazilian reais (R$).
+Brazilian E-Commerce Public Dataset by Olist (Kaggle): about 100k orders from 2016 to 2018 across 8 related tables. Amounts are in Brazilian reais (R$).
 
 ## Tools
 PostgreSQL, DBeaver, Power BI
@@ -18,19 +15,20 @@ PostgreSQL, DBeaver, Power BI
 3. Exported the results as CSV files and built a 3-page Power BI dashboard.
 
 ## Data quality notes
-- [Example: about 3% of orders had no delivery date and were excluded.]
-- [Example: analyzed delivered orders only.]
-- [Example: review comment text was dropped because it was not needed.]
+- Analysis covers delivered orders only.
+- Orders without a delivery date were excluded from the delivery analysis.
+- Review comment text was not used, so only review scores and dates were loaded.
+- Duplicate review records were reduced to one review per order.
 
 ## Key insights
-1. [Late deliveries lowered the average review score from X to Y.]
-2. [Only X% of customers made a repeat purchase.]
-3. [Revenue peaked in Month Year at R$X.]
-4. [Top 3 categories made up X% of revenue.]
+1. Late deliveries lowered the average review score from ___ (on time) to ___ (late).
+2. Only ___% of customers made a repeat purchase.
+3. Monthly revenue peaked in ___ at R$___.
+4. The top 3 categories made up ___% of revenue.
 
 ## Recommendations
-1. [Example: focus on the sellers with the highest late-delivery rates.]
-2. [Example: run a retention campaign for high-value customers.]
+1. Prioritize delivery improvements for the sellers with the highest late-delivery rates.
+2. Run a retention campaign for high-value customers, since most customers buy only once.
 
 ## Dashboard
 ![Overview](dashboard/overview.png)
@@ -43,4 +41,4 @@ PostgreSQL, DBeaver, Power BI
 - `dashboard/` - screenshots and the Power BI file
 
 ## Dataset link
-[Paste the Kaggle URL here]
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
