@@ -32,7 +32,7 @@ PostgreSQL, DBeaver, Power BI
 
 ## Dashboard
 ![Overview](Dashboards/overview.png)
-![Customers](Dashboards/customers.png)
+![Customers](Dashboards/customer.png)
 ![Delivery](Dashboards/delivery.png)
 
 ## Files
