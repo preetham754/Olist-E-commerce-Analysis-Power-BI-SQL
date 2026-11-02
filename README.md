@@ -31,9 +31,9 @@ PostgreSQL, DBeaver, Power BI
 2. Run a retention campaign for high-value customers, since most customers buy only once.
 
 ## Dashboard
-![Overview](dashboard/overview.png)
-![Customers](dashboard/customers.png)
-![Delivery](dashboard/delivery.png)
+![Overview](Dashboard/overview.png)
+![Customers](Dashboard/customers.png)
+![Delivery](Dashboard/delivery.png)
 
 ## Files
 - `sql/` - schema, data quality checks and analysis queries
